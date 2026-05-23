@@ -16,13 +16,13 @@
 ##### Windows
 
 ```shell
->>> pip install LTADatamall_py
+>>> pip install LTADatamall-py
 ```
 
 ##### MacOS
 
 ```shell
->>> pip3 install LTADatamall_py
+>>> pip3 install LTADatamall-py
 ```
 
 ### Services/Information Provided

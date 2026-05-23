@@ -1,0 +1,77 @@
+Metadata-Version: 2.4
+Name: LTADatamall-py
+Version: 0.1.0
+Summary: LTA Datamall API Wrapper
+Author-email: FishballNoodles <joelkhor.work@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/TheReaper62/ltadatamall-py
+Project-URL: Bug_Tracker, https://github.com/TheReaper62/ltadatamall-py/issues
+Keywords: lta,datamall,bus,timing,arrival,train,service,passenger volume,taxi
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
+Requires-Dist: aiohttp>=3.9.0
+Provides-Extra: docs
+Requires-Dist: mkdocs>=1.5; extra == "docs"
+Requires-Dist: mkdocs-material>=9.5; extra == "docs"
+Requires-Dist: mkdocstrings[python]>=0.24; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23; extra == "dev"
+Requires-Dist: python-dotenv>=1.0; extra == "dev"
+Dynamic: license-file
+
+## LTA Datamall API Wrapper (Python)
+
+> This is an Unoffical Wrapper and this repo has no relation nor endorsement with/from LTA
+> ####v0.1.0
+> **Library Features:**
+
+- Sync/Async
+- Lightweight
+- Easy to Use
+- Open Source
+
+### Setup
+
+---
+
+##### Windows
+
+```shell
+>>> pip install LTADatamall_py
+```
+
+##### MacOS
+
+```shell
+>>> pip3 install LTADatamall_py
+```
+
+### Services/Information Provided
+
+---
+
+1. Bus Related
+
+   - Bus Arrival
+   - Bus Stop
+   - Bus Route
+2. Passenger Volume
+
+   - Train Station
+   - Bus Stop
+3. Train Service Alert
+
+   - Train Service Alert Messages

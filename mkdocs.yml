@@ -1,0 +1,45 @@
+site_name: LTADatamall-py Documentation
+site_url: https://github.com/TheReaper62/ltadatamall-py
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_root_heading: true
+            show_source: true
+            heading_level: 2
+
+nav:
+  - API Reference:
+      - Bus Manager: reference/bus_manager.md
+      - Train Alerts: reference/train_service_alert.md
+      - Passenger Volume: reference/passenger_volume.md
+
+extra:
+  copyright: |
+    Copyright &copy; 2026 TheReaper62 &middot; 
+    Released under the <a href="https://github.com/TheReaper62/ltadatamall-py/blob/master/LICENSE" target="_blank" rel="noopener">MIT License</a>
